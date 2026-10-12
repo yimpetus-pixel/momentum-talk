@@ -1,5 +1,5 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>발표 노트 v3.1 — AI 둘을 싸움 붙이고</title>
+<title>발표 노트 v3.2 — AI 둘을 싸움 붙이고</title>
 <style>
 :root{color-scheme:dark;--bg:#000;--panel:#0E0E0E;--rule:#2B2B2B;--fg:#ECECEC;--muted:#8E8E8E;--dim:#5A5A5A;--orange:#FF9F1A;--up:#FF4D4D;--down:#5AA9FF;
 --sans:Pretendard,"Pretendard Variable",-apple-system,"Apple SD Gothic Neo",system-ui,sans-serif;--mono:"SF Mono",ui-monospace,Menlo,monospace}
@@ -15,38 +15,36 @@ nav{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:1f
 nav button{font:inherit;font-size:17px;font-weight:600;padding:16px 0;background:var(--panel);color:var(--fg);border:1px solid var(--rule);min-height:56px}nav button.next{background:var(--orange);color:#000;border-color:var(--orange)}
 body.one article{display:none}body.one article.on{display:block}
 </style></head><body>
-<header><span id="hpg">전체 보기 · 12장 · 약 13분</span><span class="t" id="clock">00:00</span><span><button id="mode" type="button">한 장씩</button> <button id="tbtn" type="button">시작</button></span></header>
-<article id="s1"><div class="top2"><span>장 01 / 12</span><span>지피터스 24기 · 베스트 발표 · 개발&amp;에이전트 · 0:50</span></div>
+<header><span id="hpg">전체 보기 · 11장 · 약 13분</span><span class="t" id="clock">00:00</span><span><button id="mode" type="button">한 장씩</button> <button id="tbtn" type="button">시작</button></span></header>
+<article id="s1"><div class="top2"><span>장 01 / 11</span><span>지피터스 24기 · 베스트 발표 · 개발&amp;에이전트 · 0:50</span></div>
 <h2>AI 둘을 싸움 붙이고, 심판에게 <em>점수</em>를 맡겼다</h2><div class="note"><p>안녕하십니까, 지피터스 닉네임 <b>모멘텀</b>입니다. 외환딜러로 일하고 있고, 개인 대시보드 usdkrw.io 를 운영하고 있습니다.</p><p>금리와 물가가 오를지 내릴지, 늘 많은 사람이 예측합니다. 상승론자도 있고 하락론자도 있습니다. <b>어느 쪽 논리가 더 탄탄한지, 그리고 실제로 어떻게 나오는지</b>를 분석 도구로 만들어 보고 싶었습니다. 그것이 오늘 주제입니다.</p><p>당장 모레, 미국 물가가 발표됩니다. 오늘 보여드릴 AI 팀의 답이 맞았는지 모레 같이 확인하시면 됩니다.</p></div>
-<p class="nx">다음 → 01 · 발표자</p></article><article id="s2"><div class="top2"><span>장 02 / 12</span><span>01 · 발표자 · 1:00</span></div>
+<p class="nx">다음 → 01 · 발표자</p></article><article id="s2"><div class="top2"><span>장 02 / 11</span><span>01 · 발표자 · 1:00</span></div>
 <h2>매일 환율을 보는 사람이, <em>직접</em> 대시보드를 만들었습니다</h2><div class="note"><p>저는 매일 원달러 환율을 보고 거래하는 사람입니다. 그런데 보고 싶은 것이 한 화면에 모여 있는 곳이 없어서, <b>비전공자지만 직접 만들기 시작한 것이 usdkrw.io</b> 입니다.</p><p>작년까지는 파이썬으로 환율을 긁어 오는 수준이었는데, 올해 2월부터 8개월 동안 데이터베이스, 사이트, 자동화까지 하나씩 넘었습니다. 작업 기록이 1,800번, 자동으로 도는 작업이 43개입니다.</p><p>오늘 주제는 이 사이트 위에서 자란 서브 프로젝트입니다.</p></div>
-<p class="nx">다음 → 02 · 왜 예측인가</p></article><article id="s3"><div class="top2"><span>장 03 / 12</span><span>02 · 왜 예측인가 · 1:00</span></div>
+<p class="nx">다음 → 02 · 왜 예측인가</p></article><article id="s3"><div class="top2"><span>장 03 / 11</span><span>02 · 왜 예측인가 · 1:00</span></div>
 <h2>보는 것에서, <em>예측하는 것</em>으로</h2><div class="note"><p>지금 usdkrw.io 는 시장 데이터를 <b>보는 것</b>에 치중돼 있습니다. 그런데 더 나은 거래를 하려면 한 발 앞서 <b>예측의 영역</b>으로 가야 합니다. 시장을 크게 움직이는 경제지표를 먼저 가늠하는 것은 투자 내러티브를 세우는 데 중요한 분석 도구입니다.</p><p>다만 전제가 있습니다. 경제지표 전망은 전문가도 잘 맞히지 못합니다. 미국 투자은행과 증권사들도 매번 금리 전망을 내놓지만 수치가 제각각이고, 맞을 때도 틀릴 때도 있습니다. 어느 데이터를 어느 기간으로 보느냐에 따라 결론이 바뀌는 <b>데이터 바이어스</b>, 보고 싶은 근거부터 찾는 <b>생각 바이어스</b> 때문입니다.</p><p>그래서 목표를 정답 맞히는 기계가 아니라, <b>왜 그렇게 봤는지를 남기는 리즈닝 도구</b>로 잡았습니다.</p></div>
-<p class="nx">다음 → 03 · 설계 출발점</p></article><article id="s4"><div class="top2"><span>장 04 / 12</span><span>03 · 설계 출발점 · 0:40</span></div>
+<p class="nx">다음 → 03 · 설계 출발점</p></article><article id="s4"><div class="top2"><span>장 04 / 11</span><span>03 · 설계 출발점 · 0:40</span></div>
 <h2>AI 하나에게 양쪽을 다 시키면, 결론이 <em>흐려집니다</em></h2><div class="note"><p>처음에는 AI 하나에게 물가가 오를지 내릴지 분석해 달라고 했습니다. 그러면 오를 수도 있고 내릴 수도 있다고, 양쪽을 조금씩 다 말합니다. <b>가장 센 근거가 묻히고 결론이 흐려집니다.</b></p><p>그래서 스터디에서 배운 하네스 방식으로, 상승한다는 쪽을 맡는 상승론자와 내린다는 쪽을 맡는 하락론자로 쪼개고, <b>서로 다른 회사의 AI 끼리</b> 토론을 붙였습니다. 대학생 토론 배틀과 같습니다. 본인 생각이 어떻든 너는 찬성, 너는 반대를 맡으라고 정해 주는 것입니다.</p></div>
-<p class="nx">다음 → 03 · 팀 구조</p></article><article id="s5"><div class="top2"><span>장 05 / 12</span><span>03 · 팀 구조 · 1:30</span></div>
+<p class="nx">다음 → 03 · 팀 구조</p></article><article id="s5"><div class="top2"><span>장 05 / 11</span><span>03 · 팀 구조 · 1:30</span></div>
 <h2>찬반은 <em>미리 정해</em> 주고 끝까지, 판단은 심판이 따로 합니다</h2><div class="note"><p>결론부터 말씀드리면 이 팀의 핵심은 두 가지입니다. <b>찬반을 미리 정해 주고 각자 끝까지 밀게 한다. 판단은 심판이 따로 한다.</b></p><p>일곱 AI 가 있습니다. 위쪽 준비 단계에서 진행자가 순서와 검사를 맡고, 작가가 쟁점을 정하고, 자료조사원이 사실만 모읍니다.</p><p>가운데 토론이 핵심입니다. 상승론자는 클로드, 하락론자는 코덱스로 일부러 다른 회사 AI 를 붙였고, 서로의 자료는 볼 수 없습니다. 각자 자기에게 가장 유리한 근거를 가져와 주장합니다.</p><p>아래에서 심판이 두 근거를 채점하고, 숫자는 심판이 아니라 <b>서로 모르는 AI 세 명에게 따로 물어 가운데 값</b>을 씁니다. 편집자는 결과를 대시보드 화면에 올립니다.</p></div>
-<p class="nx">다음 → 03 · 작업 환경</p></article><article id="s6"><div class="top2"><span>장 06 / 12</span><span>03 · 작업 환경 · 0:50</span></div>
+<p class="nx">다음 → 03 · 작업 환경</p></article><article id="s6"><div class="top2"><span>장 06 / 11</span><span>03 · 작업 환경 · 0:50</span></div>
 <h2>일곱 AI 가 한 화면에서 <em>동시에</em> 일합니다</h2><div class="note"><p>실제 작업 화면입니다. cys 라는 터미널인데, 여러 AI 세션을 한 화면에 띄워 팀처럼 지휘합니다. 헤르메스를 AI 팀용으로 최적화한 버전이라고 보시면 됩니다.</p><p>규칙은 셋입니다. 첫째, 상대 토론자의 자료는 서로 볼 수 없다. 둘째, 미국 투자은행 같은 금융기관의 예상치는 절대 보지 못하게 한다. 셋째, 모든 결과는 파일로 근거를 남긴다. <b>예상치를 막은 이유는 AI 가 남의 숫자를 베끼면 AI 가 맞혔는지 알 수 없기 때문</b>입니다.</p></div>
-<p class="nx">다음 → 03 · 토론 한 장면</p></article><article id="s7"><div class="top2"><span>장 07 / 12</span><span>03 · 토론 한 장면 · 1:30</span></div>
+<p class="nx">다음 → 03 · 토론 한 장면</p></article><article id="s7"><div class="top2"><span>장 07 / 11</span><span>03 · 토론 한 장면 · 1:30</span></div>
 <h2>유가 하나를 두고, <em>정반대로</em> 읽었습니다</h2><div class="note"><p><b>유가 하나를 두고 두 AI 가 정반대로 읽었습니다.</b> 둘 다 사실인데, 비교 기준이 달랐습니다.</p><p>상승론자 클로드: 9월 중동 리스크로 유가가 배럴당 107달러까지 뛰었다, 그래서 9월 물가에 크게 반영된다. 하락론자 코덱스: 유가는 올랐지만 <b>5월 고점에는 아직 못 미친다</b>, 물가를 끌어올릴 힘은 제한적이다.</p><p>상승론자는 지난달과, 하락론자는 유가가 높았던 5월과 비교했습니다. 어느 기간을 보느냐에 따라 결론이 달라지는 데이터 바이어스가 바로 이 장면입니다.</p><p>심판은 숫자와 날짜가 더 구체적인 상승 쪽에 8점, 하락 쪽에 6점을 줬습니다. 제가 원한 것이 이것입니다. 한 AI 가 양쪽을 얼버무리는 대신, <b>각자 끝까지 밀고 어느 근거가 더 합리적인지 심판이 따로 판단하는 구조</b>입니다.</p></div>
-<p class="nx">다음 → 04 · AI 팀의 답</p></article><article id="s8"><div class="top2"><span>장 08 / 12</span><span>04 · AI 팀의 답 · 1:20</span></div>
+<p class="nx">다음 → 04 · AI 팀의 답</p></article><article id="s8"><div class="top2"><span>장 08 / 11</span><span>04 · AI 팀의 답 · 1:20</span></div>
 <h2>미국 9월 물가, AI 팀은 <em>상승한다 쪽</em>에 무게를 뒀습니다</h2><div class="note"><p><b>AI 팀은 물가가 상승한다 쪽에 무게를 뒀습니다.</b> 직전 3.4%보다 높은 3.6% 안팎, 오를 확률 65% 입니다. 식품과 에너지를 뺀 근원 물가도 상승 쪽입니다.</p><p>토론 없이 과거 통계만으로 낸 확률, 그리고 전문가 예상치는 AI 팀이 예측을 낸 뒤에 따로 모아 비교합니다.</p><p>여기서 잠깐, 여러분도 마음속으로 골라 보시기 바랍니다. 모레 밤 9시 반, 미국 물가는 오르는 건 당연할 텐데 <b>얼마나 오를까요? 예상치보다 높을까요?</b> 그 숫자가 나오면 시장은 어떻게 반응할까요?</p></div>
-<p class="nx">다음 → 04 · 예측 시점</p></article><article id="s9"><div class="top2"><span>장 09 / 12</span><span>04 · 예측 시점 · 1:00</span></div>
+<p class="nx">다음 → 04 · 예측 시점</p></article><article id="s9"><div class="top2"><span>장 09 / 11</span><span>04 · 예측 시점 · 1:00</span></div>
 <h2>발표 전 세 시점에 예측하고, 발표 뒤 <em>따로따로</em> 채점합니다</h2><div class="note"><p>발표 전에 <b>세 시점</b>을 미리 정해 예측합니다. 1주일 전, 3일 전, 하루 전입니다. 발표가 나면 다음 날 아침 자동으로, 시점별로 실제치와 얼마나 가까웠는지 따로 채점합니다.</p><p>시점을 나누는 이유는, 시점마다 시장에 반영된 새 정보가 다르기 때문입니다. 발표에 가까울수록 정보가 많습니다. 그 차이가 예측을 어떻게 바꾸는지 보려는 것입니다.</p><p>발표 뒤에 원달러 환율과 금리가 실제로 어떻게 움직였는지까지 분석하는 것은 다음 과제로 남겨 두었습니다.</p></div>
-<p class="nx">다음 → 05 · 시행착오</p></article><article id="s10"><div class="top2"><span>장 10 / 12</span><span>05 · 시행착오 · 1:30</span></div>
+<p class="nx">다음 → 05 · 시행착오</p></article><article id="s10"><div class="top2"><span>장 10 / 11</span><span>05 · 시행착오 · 1:30</span></div>
 <h2>심판이 매번 Claude 쪽을 높게 줬습니다 — 그래서 <em>다시</em> 돌렸습니다</h2><div class="note"><p>한계도 말씀드립니다. 첫 회차에서 CPI 를 전망했을 때 상승론자가 이겼는데, 심판도 클로드, 상승론자도 클로드였습니다. 같은 회사 편들기가 아닌지 의심했습니다.</p><p>그래서 다시 돌렸습니다. 이름을 가려도 심판은 클로드 쪽을 가리켰고, 배정을 바꿔 클로드에게 하락을 맡겨도 클로드 쪽에 점수를 더 줬습니다. 코덱스가 심판을 맡아도 비슷했고, 제3의 AI 로 말투를 통일해도 심판은 네 번 다 클로드를 알아봤습니다. <b>말투가 아니라 일하는 방식, 계산을 직접 보이고 반론에 하나하나 답하는 습관이 점수에 반영된 것</b>으로 보입니다.</p><p>반가운 점은, 그래도 숫자는 세 번 모두 3.6%로 같았다는 것입니다. 숫자는 심판이 아니라 AI 세 명의 가운데 값이라 채점의 기울기가 숫자로 번지지 않았습니다. 이를 보완하려고 다음에는 양쪽에 <b>같은 계산표와 같은 형식</b>을 주고 다시 비교합니다. 하네스는 한 번 만들고 끝이 아니라 이렇게 계속 고쳐 가는 구조였습니다.</p></div>
-<p class="nx">다음 → 06 · 앞으로 · 배운 것</p></article><article id="s11"><div class="top2"><span>장 11 / 12</span><span>06 · 앞으로 · 배운 것 · 2:00</span></div>
-<h2>앞으로 더할 것 <em>셋</em>, 스터디에서 배운 것 <em>셋</em></h2><div class="note"><p>앞으로 더할 것은 셋입니다. 첫째, <b>내 데이터를 먹이는 것</b>입니다. 아까 말씀드린 데이터 바이어스와 생각 바이어스가 전망을 좌우하기 때문에, AI 팀에 어떤 데이터를 주느냐가 핵심입니다. 매일 쌓이는 시황과 보고서 노트를 입력으로 연결하려고 합니다.</p><p>둘째, 발표 뒤 시장 반응입니다. 달러 투자를 하는 사람에게 가장 궁금한 부분입니다. 셋째, 토론실 대시보드를 usdkrw.io 하위 페이지로 이미 붙였고, 조금씩 고도화해 나가겠습니다.</p><p>스터디에서 배운 것도 셋입니다. 첫째, 에이전트를 띄운다고 팀이 되지 않습니다. 역할을 주고 맞지 않으면 계속 고쳐 나가는 과정이 더 어렵고 더 중요했습니다. 둘째, 처음부터 완벽하게 시킬 수는 없습니다. 일단 시키고 초안을 보며 네 번 고치는 사이에 팀이 고도화됐습니다. 셋째, 사람은 하지 말 것을 정합니다. 전망을 직접 하는 게 아니라 AI 팀이 넘지 말아야 할 선을 긋는 일이었습니다.</p><p>무엇보다, 비전공자라 혼자 고군분투하며 갈 길을 몰랐는데, 서로 나누며 배우고 발전하는 계기가 되는 것이 스터디의 순기능이라고 매번 느낍니다.</p></div>
-<p class="nx">다음 → 감사합니다 · 모멘텀</p></article><article id="s12"><div class="top2"><span>장 12 / 12</span><span>감사합니다 · 모멘텀 · 0:40</span></div>
-<h2>비전공자도 허들을 <em>넘을 수</em> 있습니다</h2><div class="note"><p><b>마무리 멘트(빼먹지 말 것)</b> — 비전공자도 허들을 넘을 수 있습니다. 하나씩 넘다 보니 여기까지 왔습니다. 모레 밤 9시 반, AI 팀의 답이 맞았는지 같이 확인해 주시면 감사하겠습니다. <b>우리 모두 잘 해나갑시다.</b> 들어 주셔서 감사합니다.</p><p><span class="cue">Q&amp;A 대비 — 비용: 기존 구독 안 / 정확도: 첫 채점 10/15 아침, 16개 쌓이면 미리 정한 규칙으로 판정 / 왜 두 회사 AI: 같은 회사끼리는 생각 버릇이 비슷 / Claude 가 더 잘 쓰는 것 아닌가: 그럴 수 있어 Codex 심판도 함께, 다음엔 같은 계산표·형식으로 비교 / 시장 예상치를 왜 안 보나: 베끼면 맞혔는지 알 수 없음, 뒤에 따로 비교 / 투자 추천인가: 아니다, 판단의 이유를 정리하는 도구</span></p></div>
+<p class="nx">다음 → 06 · 앞으로 · 배운 것</p></article><article id="s11"><div class="top2"><span>장 11 / 11</span><span>06 · 앞으로 · 배운 것 · 2:10</span></div>
+<h2>앞으로 더할 것 <em>셋</em>, 스터디에서 배운 것 <em>셋</em></h2><div class="note"><p>앞으로 더할 것은 셋입니다. 첫째, <b>자체 데이터 연동</b>입니다. 아까 말씀드린 데이터 바이어스와 생각 바이어스가 전망을 좌우하기 때문에, AI 팀에 어떤 데이터를 입력하느냐가 핵심입니다. 매일 축적되는 시황과 리서치 자료를 입력으로 연동하려고 합니다.</p><p>둘째, 발표 뒤 시장 반응입니다. 달러 투자를 하는 사람에게 가장 궁금한 부분입니다. 셋째, 토론실 대시보드를 usdkrw.io 하위 페이지로 이미 붙였고, 조금씩 고도화해 나가겠습니다.</p><p>스터디에서 배운 것도 셋입니다. 첫째, 에이전트를 띄운다고 팀이 되지 않습니다. 역할을 주고 맞지 않으면 계속 고쳐 나가는 과정이 더 어렵고 더 중요했습니다. 둘째, 처음부터 완벽하게 시킬 수는 없습니다. 일단 시키고 초안을 보며 네 번 고치는 사이에 팀이 고도화됐습니다. 셋째, 사람은 하지 말 것을 정합니다. 전망을 직접 하는 게 아니라 AI 팀이 넘지 말아야 할 선을 긋는 일이었습니다.</p><p>무엇보다, 비전공자라 혼자 고군분투하며 갈 길을 몰랐는데, 서로 나누며 배우고 발전하는 계기가 되는 것이 스터디의 순기능이라고 매번 느낍니다. 모레 밤 9시 반, AI 팀의 답이 맞았는지 같이 확인해 주시면 감사하겠습니다. 들어 주셔서 감사합니다.</p><p><span class="cue">Q&amp;A 대비 — 비용: 기존 구독 안 / 정확도: 첫 채점 10/15 아침, 16개 쌓이면 미리 정한 규칙으로 판정 / 왜 두 회사 AI: 같은 회사끼리는 생각 버릇이 비슷 / 클로드가 더 잘 쓰는 것 아닌가: 그럴 수 있어 코덱스 심판도 함께, 다음엔 같은 계산표·형식으로 비교 / 기관 예상치를 왜 안 보나: 베끼면 맞혔는지 알 수 없음, 뒤에 따로 비교 / 투자 추천인가: 아니다, 판단의 이유를 정리하는 도구</span></p></div>
 <p class="nx">끝 · 수고하셨습니다</p></article>
 <nav><button id="prev" type="button">← 이전</button><button id="next" class="next" type="button">다음 →</button></nav>
 <script>
 (()=>{const arts=[...document.querySelectorAll('article')],body=document.body,pad=n=>String(n).padStart(2,'0');let i=0,one=false;
 try{i=Math.min(arts.length-1,parseInt(localStorage.getItem('fxd-note-i')||'0')||0);one=localStorage.getItem('fxd-note-one')==='1';}catch(e){}
 function render(){body.classList.toggle('one',one);arts.forEach((a,j)=>a.classList.toggle('on',j===i));document.getElementById('mode').textContent=one?'전체 보기':'한 장씩';
- document.getElementById('hpg').textContent=one?`장 ${pad(i+1)} / ${pad(arts.length)}`:`전체 보기 · 12장 · 약 13분`;
+ document.getElementById('hpg').textContent=one?`장 ${pad(i+1)} / ${pad(arts.length)}`:`전체 보기 · 11장 · 약 13분`;
  try{localStorage.setItem('fxd-note-i',String(i));localStorage.setItem('fxd-note-one',one?'1':'0');}catch(e){}
  if(!one)arts[i].scrollIntoView({block:'start'});else scrollTo(0,0);}
 document.getElementById('prev').onclick=()=>{if(i>0){i--;render();}};document.getElementById('next').onclick=()=>{if(i<arts.length-1){i++;render();}};
